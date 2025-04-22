@@ -1,0 +1,25 @@
+{
+  "name": "express-mongodb-youtube-backend",
+  "version": "1.0.0",
+  "description": "Express backend for saving YouTube URLs and descriptions to MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "mongodb",
+    "youtube"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
