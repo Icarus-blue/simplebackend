@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 
 // Replace with your actual MongoDB connection string
-const MONGODB_URI = "mongodb://127.0.0.1:27017/youtube";
+const MONGODB_URI = "mongodb+srv://pengineer:fltjdaud0901@cluster0.i4qsq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/youtube";
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log("MongoDB connected"))
